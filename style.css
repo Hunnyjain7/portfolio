@@ -32,3 +32,36 @@
 .center-inner {
     margin-left: 40px;
 }
+
+.top-center {
+    display: flex;
+  column-gap: 20px;
+  justify-content: space-between;
+}
+
+.background {
+    background-image: url(/img.png);
+    height: 40em;
+    margin: auto;
+}
+
+.center-inner {
+    margin: 100px;
+}
+
+h1, .h1 {
+    font-size: 4.5rem;
+    color: #153431;
+    font-family: "Trirong", sans-serif;
+    font-weight: 750;
+}
+
+h5, .h5 {
+    margin: 10px;
+    color: #286f6c;
+    font-family: "Trirong", sans-serif;
+}
+
+.cir {
+    padding-top: 30px;
+}
