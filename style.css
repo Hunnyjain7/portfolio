@@ -1,103 +1,272 @@
-.main {
-    padding-top: 40px;
-    padding-bottom: 10px;
-    background-color: #f8f7f1;
-    margin: auto;
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.sub-main-one {
+  padding-top: 40px;
+  background-color: #f8f7f1;
 }
 
 .inner {
-    color: #286f6c;
+  color: #286f6c;
 }
 
 .homepage {
-    padding-left: 150px;
+  padding-left: 150px;
 }
 
 .middle {
-    text-align: center;
-    padding-left: 20px;
+  text-align: center;
+  padding-left: 20px;
 }
 
-.middle div a  {
-    text-decoration: none;
-    color: inherit;
+.middle div a {
+  text-decoration: none;
+  color: inherit;
 }
 
 .middle-active {
-    border-left: 2px solid #286f6c;
-    border-right: 2px solid #286f6c;
-    border-radius: 80px;
+  border-left: 2px solid #286f6c;
+  border-right: 2px solid #286f6c;
+  border-radius: 80px;
 }
 
 .background {
-    padding-left: 25px;
-    background-image: url(/img.png);
-    height: 40em;
-    margin: auto;
+  padding-left: 25px;
+  background-image: url(/img.png);
+  height: 38em;
+  margin: auto;
 }
 
 .top-center {
-    display: flex;
+  display: flex;
+  margin: 70px 70px;
+  padding-top: inherit;
 }
 
 .center-inner {
-    margin: 70px 70px;
-    column-gap: 20px;
-    justify-content: space-between;
-    margin-bottom: 5PX;
+  justify-content: space-between;
+  margin-bottom: 5px;
 }
 
-h1, .h1 {
-    font-size: 4.0rem;
-    color: #153431;
-    font-family: "Trirong", sans-serif;
-    font-weight: 800;
-    padding-left: 50px;
-    font-stretch: extra-expanded;
+h1,
+.h1 {
+  font-size: 4rem;
+  color: #153431;
+  font-family: "Trirong", sans-serif;
+  font-weight: 800;
+  padding-left: 50px;
+  font-stretch: extra-expanded;
 }
 
-h5, .h5 {
-    margin: 20px;
-    color: #286f6c;
-    font-family: "Trirong", sans-serif;
+h5,
+.h5 {
+  color: #286f6c;
+  font-family: "Trirong", sans-serif;
+  line-height: 30pt;
 }
 
 .center-inner-cir {
-    padding-top: 10px;
-    padding-left: 80px;
+  padding-left: 80px;
+  margin: inherit;
+  padding-top: 45px;
 }
 
 .center-middle h5 {
-    margin: 20px;
-    padding-left: 115px;
-    color: #ff6500;
-    font-family: monospace;
-    font-weight: bolder;
+  padding-left: 55px;
+  padding-top: 80px;
+  color: #ff6500;
+  font-family: monospace;
+  font-weight: bolder;
 }
 
 .center-bottom {
-    display: flex;
-    justify-content: space-between;
+  justify-content: space-between;
+  margin-bottom: 40px;
+  display: flex;
 }
 
 .cbl {
-    text-align: center;
-    padding-left: 100px;
-    height: auto;
-    padding-top: 100px;
+  text-align: center;
+  height: auto;
+  padding-top: 100px;
 }
 
 .cbl h1 {
-    font-size: 4.7rem;
-    padding-left: 65px;
+  font-size: 4.7rem;
+  padding-left: 65px;
+}
+
+.cbl h5 {
+  margin: 8px;
+  padding-left: 27px;
+}
+
+.cbr {
+  padding-left: 20px;
+  margin: -25px;
 }
 
 .certified-img {
-    height: 100px;
-    width: 190px;
-    padding-left: 75px;
+  height: 170px;
+  width: 190px;
+  margin-left: 20px;
 }
 
-.cbr h5 {
-    margin-right: 10px;
+.certified-img + h5 {
+  padding-left: 18px;
+}
+
+.sub-main-two {
+  margin: 120px;
+}
+
+.smtl {
+  margin: 10px;
+}
+
+.smtr {
+  margin: 20px;
+}
+
+.services {
+  margin: 15px;
+  border-color: #ffffff3d;
+  border-radius: 15px;
+  border-style: groove;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.services img {
+  height: 50px;
+  width: 50px;
+}
+
+.circle {
+  margin: 30px;
+  width: 90px;
+  height: 90px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-top {
+  background: #286f6c;
+}
+
+.logo-middle {
+  background: #efc049;
+}
+
+.logo-bottom {
+  background: #f26440;
+}
+
+.smtr h2 {
+  font-size: 4rem;
+  color: #153431;
+  font-family: "Trirong", sans-serif;
+  font-weight: 600;
+  padding-left: 50px;
+  font-stretch: extra-expanded;
+}
+
+.smtr h5 {
+  margin: 13px 0;
+  padding-left: 50px;
+}
+
+.sub-main-three {
+  background-color: #f8f7f1;
+}
+
+.smth {
+  margin: 100px;
+}
+
+.smthl {
+  display: grid;
+  padding-left: 85px;
+  padding-top: 5px;
+}
+
+.exp h2 {
+  padding-top: 70px;
+  padding-bottom: 50px;
+  text-align: center;
+  font-size: 4rem;
+  color: #153431;
+  font-family: "Trirong", sans-serif;
+  font-weight: 600;
+  font-stretch: extra-expanded;
+}
+
+.smthrrow {
+  padding-bottom: 75px;
+}
+
+.pg {
+  background: #286f6c;
+}
+
+.py {
+  background: #efc049;
+}
+
+.po {
+  background: #f26440;
+}
+
+.point-outer-border {
+  width: 50px;
+  height: 50px;
+  border: 1.8px dashed;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.point-outer-border:before {
+  content: "";
+  display: block;
+  position: absolute;
+  z-index: 1;
+  top: 107%;
+  left: 50%;
+  bottom: 25%;
+  border: 1.8px dashed;
+  border-width: 0 0 0 2px;
+  width: 45px;
+  height: 195px;
+}
+
+.pob-last:before {
+  height: 112px;
+}
+
+.point {
+  width: 20px;
+  height: 20px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.smthr-content {
+  padding-left: 20px;
 }
